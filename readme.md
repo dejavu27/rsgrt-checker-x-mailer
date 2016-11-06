@@ -1,29 +1,26 @@
-# Laravel PHP Framework
+# RSGRT - The Mailer X Checker
+This application is for educational purposes only. Use it wisely and carefully.
+## Installation of site
+1.) Open .env and edit the line code 10(DB_DATABASE) 11(DB_USERNAME) and 12(DB_PASSWORD) and put your own mysql server login information
+2.) Upload/Import the "database.sql" into your existing database
+3.) Go to yourlink.com/public/register and register your own account
+4.) Back to database management and goto Users Table and edit your "account_type" from 0 to 3 to get an Administrator Account
+5.) Done!
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Configuration of your own mail server
+1.) Open .env and edit line code 24(MAIL_HOST) 25(MAIL_PORT) 26(MAIL_USERNAME) 27(MAIL_PASSWORD) and put your own mail server login information.
+2.) DONE!
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Configuration of EMAIL CREATOR Server
+1.) Open file app/Http/Controller/UsersController then edit line code 68/142($IP) 69/143($account) 70/144(password) and put your own cpanel account information.
+2.) DONE!
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## DEMO SITE
+http://project01.freefromdhan.me
 
-## Official Documentation
+## NOTE 
+I already gave you the source and the demonstration site to prove that it is working. you found some bugs and difficulty on using of it then i shall not reply you because this is now your own problem not mine :) . Enjoy the site and the code and Carry on! Sharing is Caring.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+IF YOU HAVE ANY QUESTION PM ON MY FACEBOOK PAGE AT https://www.facebook.com/rad.webdeveloper.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-"# rsgrt-checker-x-mailer" 
-"# rsgrt-checker-x-mailer" 
+# ~PH.Dejavu27
