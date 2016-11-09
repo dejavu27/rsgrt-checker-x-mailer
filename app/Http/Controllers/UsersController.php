@@ -65,9 +65,9 @@ class UsersController extends Controller
     	if(!Auth::guest() && Auth::user()->approved == 1){
 			// Default whm/cpanel account info
 
-			$ip = "ano.anotherme.io";           // should be WHM ip address
-			$account = "uyemailoh";        // cpanel user account name
-			$passwd ="Roldhan27!!";        // cpanel user password
+			$ip = "changeme";           // should be WHM ip address
+			$account = "changeme";        // cpanel user account name
+			$passwd ="changeme";        // cpanel user password
 			$port =2083;                 // cpanel secure authentication port unsecure port# 2082
 
 			// check if overrides passed
@@ -139,9 +139,9 @@ class UsersController extends Controller
     			$userid = $request->input('id');
     			$error = 0;
     			$success = 0;
-				$ip = "ano.anotherme.io";           
-				$account = "uyemailoh";        
-				$passwd ="Roldhan27!!";        
+				$ip = "changeme";           
+				$account = "changeme";        
+				$passwd ="changeme";        
 				$port =2083;                 
     			for($i=0;$i<count($userid);$i++){
     				$chkemail = Emails::where('id','=',$userid)->first();
